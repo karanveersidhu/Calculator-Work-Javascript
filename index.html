@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="indexJ.js"></script>
+    <style>
+        .button8 {
+            border-radius: 50%;
+        }
+        .button-si {
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table table-borderless text-center table-secondary" style=" width: 100px;" id="info">
+            <tr><td colspan="4"><input type="text" style="height: 80px; width: 230px; border: 1px solid black;" id="console"></td></tr>
+            <tr>
+                <td> <button class="btn button8" value="AC" onclick="clr()">AC</button></td><td><button class="btn button8" value="#">+/-</button> </td><td><button class="btn button8" value="%" onclick="disp('%')">%</button></td><td><button class="btn button8" value="/" onclick="disp('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn button8" value="7" onclick="disp('7')">7</button></td><td><button class="btn button8" value="8" onclick="disp('8')">8</button> </td><td><button class="btn button8" value="9" onclick="disp('9')">9</button></td><td><button class="btn button8" value="*" onclick="disp('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn button8" value="4" onclick="disp('4')">4</button></td><td><button class="btn button8" value="5" onclick="disp('5')">5</button> </td><td><button class="btn button8" value="6" onclick="disp('6')">6</button></td><td><button class="btn button8" value="-" onclick="disp('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn button8" value="1" onclick="disp('1')">1</button></td><td><button class="btn button8" value="2" onclick="disp('2')">2</button> </td><td><button class="btn button8" value="3" onclick="disp('3')">3</button></td><td><button class="btn button8" value="+" onclick="disp('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="btn button8 " value="0" onclick="disp('0')">0</button></td></td><td><button class="btn button8" value="." onclick="disp('.')">.</button></td><td><button class="btn button8" value="=" onclick="eva()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
